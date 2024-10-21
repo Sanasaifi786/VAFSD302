@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{ margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        background-color: rgb(104, 183, 98);
+        padding: 20px;
+    }
+    ul li{
+        margin: 0 10px;
+        border-right: 1px solid grey;
+        padding-right:35px ;
+    }
+    ul li:nth-child(6){
+        border: 0; 
+        padding-right: 0;
+    }
+    ul li a{
+        text-decoration: none;
+        padding:5px 10px;
+        color: black;
+    }
+    ul li a:hover{
+        color: white;
+        background-color: black;
+    }
+    #n{
+        border-radius: 10px;
+        padding: 4px;
+        background-color: blue;
+        color: white;
+    }
+    #m{
+        background-color: white;
+        border-radius: 40px;
+        padding: 4px;
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+    <li><a href="">Product</a></li>
+    <li><a href="">Integrations</a></li>
+    <li><a href="">Pricing</a></li>
+    <li><a href="">Resourses</a></li>
+    <li><button id="m">Login</button></li>
+    <li><button id="n">Getstarted</button></li>
+    </ul>
+</body>
+</html>
