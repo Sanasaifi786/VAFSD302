@@ -1,0 +1,30 @@
+
+h1{color: chocolate;
+    text-decoration: line-through;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 1px 2px rgb(229, 255, 0);
+    text-indent: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight:900;
+    font-style: italic;
+    font-variant: small-caps;
+}
+body
+{
+    background-color:aqua;
+    background-image: url(/pexels-faheem-ahamad-422934800-15745114.jpg);
+    background-repeat: no repeat;
+}
+div{
+    width:900px;
+    height:500px;
+    margin:0 auto;
+    padding: 0px;
+    background-image: linear-gradient(red,yellow,blue);
+   /* background-image: radial-gradient(blue, green, white); */
+}
