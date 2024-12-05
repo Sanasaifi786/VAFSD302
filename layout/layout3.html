@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Layout2</title>
     <style>
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            
         }
         main{
             width: 1200px;
@@ -17,57 +18,44 @@
             margin: 0 auto;
             text-align: center;
         }
-        #container1{
+        #logo{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(253,202,64);
+            align-content: center;
+
+        }
+        #container{
             width: 100%;
             height: auto;
-            flex-direction: row;
             display: flex;
             gap: 25px;
             flex-wrap: wrap;
             justify-content: space-between;
             margin: 5px 0;
         }
-        #logo{
-            width: 50%;
-            height: 100px;
-            background-color: rgb(253,202,64);
-            align-content: center;
-
+        #container div{
+            width: 280px;
+            height: 250px;
+            background-color: rgb(51,161,253);
         }
-        nav{
-            
-        }
-        header{
-            width: 100%;
-            height: 150px;
-            background-color: #ccc;
-            align-content: center;
-            margin-bottom: 10px;
-        }
-        #text{
-            width: 100%;
-            height: 50px;
-            background-color: chocolate;
-            margin-bottom: 10px;
-        }
-        #container{
+        #box{
             width: 100%;
             height: 200px;
             display: flex;
-            gap: 25px;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            gap: 5px;
+            flex-wrap: nowrap;
+            flex-direction: row;
             margin: 5px 0;
         }
         .boxes{
             flex-grow: 1;
             background-color: rgb(253,202,64);
             align-content: center;
-            margin-bottom: 10px;
         }
         footer{
             width: 100%;
-            height: 50px;
+            height: 150px;
             background-color: #999;
             align-content: center;
         }
@@ -75,16 +63,29 @@
 </head>
 <body>
     <main>
-        <div id="container1">
         <div id="logo"><h2>Logo</h2></div>
-        <nav>Navigation</nav>
-        </div>
-        <header>Header</header>
-        <div id="text"><h2>Intro text area</h2></div>
         <div id="container">
-            <div class="boxes">Box1</div>
-            <div class="boxes">Box2</div>
-            <div class="boxes">Box3</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="box">
+            <div class="boxes"><h2>Box1</h2></div>
+            <div class="boxes"><h2>Box2</h2></div>
+            <div class="boxes"><h2>Box3</h2></div>
         </div>
         <footer>Footer</footer>
     </main>

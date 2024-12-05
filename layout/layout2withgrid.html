@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+            gap: 10px;
+            text-align: center;
+        }
+        #container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        #logo{
+            background-color: bisque;
+        }
+        nav{
+            background-color: blue;
+        }
+        header{
+            background-color: bisque;
+        }
+        #intro{
+            background-color: brown;
+        }
+        #boxes{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            gap: 10px;
+        }
+        .boxes{
+            background-color: burlywood;
+        }
+        footer{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="logo"><h2>Logo</h2></div>
+            <nav>Navigation</nav>
+        </div>
+        <header><h2>Header</h2></header>
+        <div id="intro"><h2>Intro</h2></div>
+        <div id="boxes">
+            <div class="boxes">Box1</div>
+            <div class="boxes">Box2</div>
+            <div class="boxes">Box3</div>
+        </div>
+        <div><h2>Footer</h2></div>
+    </main>
+</body>
+</html>
