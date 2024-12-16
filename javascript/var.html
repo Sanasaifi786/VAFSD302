@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let name="sana";
+        console.log(typeof(name));
+
+        let mob=9876543210;
+        console.log(typeof(mob));
+
+        let ismarried=false;
+        console.log(typeof(ismarried));
+
+        let city=null;
+        console.log(typeof(city));
+
+        let pincode;
+        console.log(typeof(pincode));
+        // Reference-
+        //object-collection of its name and value
+         /* let my_info={
+            name:"sana", 
+            age:20, 
+            mob:9876543210, 
+            add:"UP",
+            ismarried:false, 
+            pincode:null
+        }
+        console.log(my_info.name);
+        console.log(my_info.mob);
+        console.log(my_info.add);*/
+
+        /*let msg=function()
+        {
+            console.log0("thanks to visits us");
+            console.log(typeof(msg));
+        }
+        msg();*/
+
+        //Array- array os the collection of all datatypes
+        /* let student=[
+            "sana",
+            20,
+            9876543210,
+            false,
+            "UP"
+        ];
+        console.log(student[2]); */
+
+        // creating object having all data types values
+        let student={
+            name:["sana","saloni","sameer","niketan","riya","ritesh"],
+            age:20,
+            course:"web",
+            add:{
+                area:"Govindpuram",
+                city:"Ghaziabad",
+            },
+            getinfo:function(){
+                return this.name[1]+" and their age is " + this.age
+            },
+            ismarried:false
+        };
+        console.log(student.getinfo());
+        console.log(student.name[0]);
+        console.log(student.add.city);
+    </script>
+</body>
+</html>
