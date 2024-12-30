@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function msg()
+        {
+            alert("Hello JS");
+        }
+        msg();
+
+        let msg1=function(){
+            console.log("Hello JS");
+        }
+        msg1();
+        //parameters
+        let add=function()
+        {
+            let c=a+b;
+            console.log("addition of two number is ${c}");
+        }
+        add(4,7)
+        
+        let mul=function(n1,n2)
+        {
+            mulResult=n1*n2;
+            return mulResult;
+        }
+        let result=mul(10,5);
+        console.log(result);
+    </script>
+</body>
+</html>
